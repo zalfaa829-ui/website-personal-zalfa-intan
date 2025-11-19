@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procrastination Killer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Procrastination Killer</h1>
+        <p>Apa **satu hal** yang harus Anda lakukan **sekarang**?</p>
+
+        <input type="text" id="taskInput" placeholder="Masukkan tugas tunggal Anda di sini">
+        <button id="setTaskButton">Tetapkan Tugas</button>
+
+        <div class="task-display">
+            <h2>Fokus Sekarang:</h2>
+            <p id="currentTask">Belum ada tugas yang ditetapkan.</p>
+        </div>
+
+        <div class="pomodoro-timer">
+            <h3>Pengatur Waktu Pomodoro (25:00)</h3>
+            <div id="timerDisplay">25:00</div>
+            <button id="startButton">Mulai</button>
+            <button id="pauseButton" disabled>Jeda</button>
+            <button id="resetButton">Setel Ulang</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
